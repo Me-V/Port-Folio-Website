@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body{
+background: #21196b;
+}
+
+
+nav{
+  
+  display: flex;
+  justify-content: center;
+}
+nav a{
+  font-size: 3.5rem;
+  text-decoration: none;
+  color: white;
+  margin: 1em 0;
+  padding: 0 5vw;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.one{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.content{
+  font-size: 6rem;
+  color: white;
+  padding: 3rem;
+  margin: 10rem 5rem;
+  font-family: 'Anton', sans-serif;
+  font-family: 'EB Garamond', serif;
+}
+.content span{
+  color:#b0bcff;
+
+}
+.two{
+  margin-bottom: 10rem;
+}
+.two img{
+  width: 95vw;
+  margin-left: 1.5rem;
+  border-radius: 1.5rem;
+}
+.workExp{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+.three{
+  font-size:7rem;
+  color: white;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.four img{
+ height:20vh;
+ margin-left: 30vw;
+ margin-top: 6.5vh;
+}
+.fourHead{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
+  color:white;
+  margin-top: 1vh;
+  text-align: center;
+}
+.fourContent{
+  font-size: 3rem;
+  color:white;
+  padding: 3rem;
+}
+
+footer{
+  background: black;
+}
+.five{
+  font-size: 3rem;
+  color:white;
+  padding: 1rem 0;
+  text-align: center;
+}
+.socials{
+  display: flex;
+  justify-content:center;
+}
+
+.socials img{
+  height:8vh;
+  width: 15vw;
+  margin-top: 1rem;
+  padding: 0 2rem;
+  margin:2rem 0;
+}
